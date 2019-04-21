@@ -69,7 +69,7 @@ func main() {
   db.Model(&product).Update("Price", 2000)
 
   // Delete - delete product
-  db.Delete(&product)
+  db.Delete(&product)日日日
 }
 ```
 
